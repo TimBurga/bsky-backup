@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:c54hcflqn6rv53qumfnxc5mj",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shjzkgfiF5L1DW91dxAJP31Caub9UADWb6GR9KZwjyQkxU"
+  },
+  "rotationKeys": [
+    "did:key:zQ3shkHRy7DZDghffdWSXNPBsx6xyBU7R7U9g2WnjbEXXFMuE",
+    "did:key:zQ3shsSWKHWTZiat2AguJGdUPiFFEq3g919hbx3GWYvWDfLoK"
+  ],
+  "alsoKnownAs": [
+    "at://timburga.com"
+  ],
+  "services": {
+    "atproto_pds": {
+      "type": "AtprotoPersonalDataServer",
+      "endpoint": "https://pds.timburga.social"
+    }
+  }
+}

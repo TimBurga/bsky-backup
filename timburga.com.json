@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:plc:c54hcflqn6rv53qumfnxc5mj",
+  "alsoKnownAs": [
+    "at://timburga.com"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:plc:c54hcflqn6rv53qumfnxc5mj#atproto",
+      "type": "Multikey",
+      "controller": "did:plc:c54hcflqn6rv53qumfnxc5mj",
+      "publicKeyMultibase": "zQ3shjzkgfiF5L1DW91dxAJP31Caub9UADWb6GR9KZwjyQkxU"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://pds.timburga.social"
+    }
+  ]
+}
